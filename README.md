@@ -9,7 +9,7 @@ By Rafael Xolio
 Monolithic architecture - architect an application as a single deployable unit
 Microservice architecture - architect an application as a collection of loosely coupled, services
 
-##How to decompose an application into services?
+## How to decompose an application into services?
 
 Decompose by business capability - define services corresponding to business capabilities
 Decompose by subdomain - define services corresponding to DDD subdomains
@@ -18,7 +18,8 @@ Service per teamnew
 
 Strangler Application
 Anti-corruption layer
-How to maintain data consistency and implement queries?
+
+## How to maintain data consistency and implement queries?
 
 Database per Service - each service has its own private database
 Shared database - services share a database
